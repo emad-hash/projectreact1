@@ -1,8 +1,13 @@
 import React from 'react'
+import Card from './Card'
+import Search from './Search'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+     <Search/>
+     <Card/>
+    </div>
   )
 }
 
