@@ -3,9 +3,9 @@ import { Link, NavLink } from 'react-router-dom'
 
 function Nav() {
     return (
-        <div>
+        <div >
             
-<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+<nav class="bg-white border-b border-black px-2 sm:px-4 py-2.5 rounded dark:bg-gray-500">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
   <a href="https://flowbite.com/" class="flex items-center">
       <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />

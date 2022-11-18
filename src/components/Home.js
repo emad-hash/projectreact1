@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from './Card'
-import Search from './Search'
+
+import Slider from './Slider/Slider'
 
 function Home() {
   return (
     <div>
-     <Search/>
-     <Card/>
+      <Slider/>
+      {/* <MovieList/> */}
     </div>
   )
 }
