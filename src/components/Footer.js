@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
+import './style.css'
 function Footer() {
   return (
     <div>
@@ -9,7 +9,7 @@ function Footer() {
         </span>
         <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
-                <NavLink to='/About'  class="mr-4 hover:underline md:mr-6 ">About</NavLink>
+                <NavLink to='/About'  class=" lo mr-4 hover:underline md:mr-6 ">About</NavLink>
             </li>
             <li>
                 <NavLink to='/Contact'  class="hover:underline">Contact</NavLink>
