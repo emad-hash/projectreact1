@@ -10,7 +10,6 @@ import Home from './pages/home/Home';
 import MovieList from './components/movieList/movieList';
 import Movie from './pages/movieDetail/Movie';
 
-
 function App() {
   return (
     <div>
@@ -22,8 +21,10 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Login" element={<Login/>}/>
         <Route path="/Register" element={<Register/>}/>
-        <Route path="movie/:id" element={<Movie />}></Route>
-                <Route path="movies/:type" element={<MovieList />}></Route>
+        <Route path="movie/:id" element={<Movie />}/>
+        <Route path="movies/:type" element={<MovieList />}/>
+        <Route path="movies/:type" element={<MovieList />}/>
+      
       </Routes>
       <Footer/>
     </div>

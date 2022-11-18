@@ -1,4 +1,5 @@
 import React from 'react'
+import Demo from './Demo'
 
 function Contact() {
   return (
@@ -111,8 +112,9 @@ function Contact() {
           </section>
         </div>
       </div>
+      <Demo/>
     </div>
-
+   
   )
 }
 

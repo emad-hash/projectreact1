@@ -3,8 +3,10 @@ import { Link, NavLink } from 'react-router-dom'
 
 function Nav() {
     return (
-        <div >
+  <div >
             
+
+
 <nav class="bg-white border-b border-black px-2 sm:px-4 py-2.5 rounded dark:bg-gray-500">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
   <Link to='/' class="flex items-center">

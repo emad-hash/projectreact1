@@ -12,7 +12,7 @@ function Login() {
                             <div className="flex flex-col flex-1 justify-center mb-8">
                                 <h1 className="text-4xl text-center font-thin">Welcome Back</h1>
                                 <div className="w-full mt-4">
-                                    <form className="form-horizontal w-3/4 mx-auto" method="POST" action="#">
+                                    <form className="form-horizontal w-3/4 mx-auto" >
                                         <div className="flex flex-col mt-4">
                                             <input id="email" type="text" className="flex-grow h-8 px-2 border rounded border-grey-400" name="email"  placeholder="Email" />
                                         </div>
