@@ -1,16 +1,8 @@
 import React from 'react'
 import  {useEffect, useState} from "react"
+import movieList from "./components/movieList/movieList";
 function Search() {
-  // const [search,setSearch] = useState("")
-  // useEffect(() => {
-  //          if(search)
-  //          {
-  //              const result = movieList?.filter(movie => movie.title.toLowerCase().includes(search))
-  //              setSearch(result)
-  //          }else{
-  //              setSearch()
-  //          }
-  //      },[search])
+  
   return (
     <div>
        <form className='mt-8'>   

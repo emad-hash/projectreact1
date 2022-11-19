@@ -22,7 +22,7 @@ const Register = () => {
     const [title, setTitle] = useState("All fileds are requierd! ");
 
     const array = [];
-    const user1 = { firstName: 'malek', lastName: 'saleh', registerEmail: 'malek@yahoo.com', registerPassword: '232334' }
+    const user1 = { firstName: 'emad', lastName: 'hashash', registerEmail: 'emad@gmail.com', registerPassword: '12345' }
     localStorage.setItem('users', JSON.stringify(array))
 
 
