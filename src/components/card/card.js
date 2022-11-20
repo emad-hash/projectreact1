@@ -24,6 +24,7 @@ const Cards = ({movie}) => {
         </div>
         :
         <Link to={`/movie/${movie.id}`} style={{textDecoration:"none", color:"white"}}>
+       
             <div className="cards">
                 <img className="cards__img" src={`https://image.tmdb.org/t/p/original${movie?movie.poster_path:""}`} />
                 <div className="cards__overlay">
