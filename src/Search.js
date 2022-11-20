@@ -5,7 +5,7 @@ function Search({setSearch}) {
   // const [data , setData] =useState("");
   return (
     <div>
-                   <form className='mt-8'>   
+                   <form className='mt-8 mb-10'>   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div class="relative">
         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
