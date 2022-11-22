@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from "react"
 import './fav.css'
+import { Link } from "react-router-dom"
+
 function Fav() {
     const [fav,setfav] = useState([])
 
@@ -20,7 +22,7 @@ function Fav() {
            {
                         fav.map(movie => (
                             <>
-                          
+
                                     <div className="cards1">
                                    <img className="cards__img1" src={`https://image.tmdb.org/t/p/original${movie && movie.poster_path}`} />
                                    <div className="cards__overlay1">
