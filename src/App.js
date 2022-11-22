@@ -9,6 +9,7 @@ import Register from './components/Register';
 import Home from './pages/home/Home';
 import MovieList from './components/movieList/movieList';
 import Movie from './pages/movieDetail/Movie';
+import Fav from './components/fav/Fav';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path="movie/:id" element={<Movie />}/>
         <Route path="movies/:type" element={<MovieList />}/>
         <Route path="movies/:type" element={<MovieList />}/>
-      
+        <Route path="/Fav" element={<Fav />}/>
+
       </Routes>
       <Footer/>
     </div>

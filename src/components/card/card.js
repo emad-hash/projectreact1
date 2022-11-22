@@ -6,13 +6,15 @@ import { Link } from "react-router-dom"
 const Cards = ({movie}) => {
 
     const [isLoading, setIsLoading] = useState(true)
-
+    // const [recipe,setRecipe] = useState(null)
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(false)
         }, 1500)
     }, []) 
+ 
 
+  
     return  <>
     {
         isLoading

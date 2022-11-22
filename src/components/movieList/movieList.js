@@ -10,6 +10,7 @@ const MovieList = () => {
     const [newList , setNewList] = useState([])
     const [search , setSearch] =useState("")
     // const {type} = useParams()
+   
 
     useEffect(() => {
         getData()
